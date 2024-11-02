@@ -1,5 +1,5 @@
 # Evaluating Methods for Efficient Entity Count Estimation
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14017389.svg)](https://doi.org/10.5281/zenodo.14017388)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14017388.svg)](https://doi.org/10.5281/zenodo.14017388)
 
 
 This repository contains the code and data for the paper *"Evaluating Methods for Efficient Entity Count Estimation"*. 
