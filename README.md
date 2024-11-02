@@ -1,8 +1,7 @@
 # Evaluating Methods for Efficient Entity Count Estimation
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14017389.svg)](https://doi.org/10.5281/zenodo.14017389)
 
-Repository containing experiments reported in *"Evaluating Methods for Efficient Entity Count Estimation"*
-
+This repository contains the code and data for the paper *"Evaluating Methods for Efficient Entity Count Estimation"*. 
 
 ### Abstract
 The problem of estimating the size of a query result has a long history in data management. When the query performs entity resolution (aka record linkage or deduplication), the problem is that of estimating the number of distinct entities, referred to as the *entity count*. This problem has received much attention from the statistics community but it has been largely overlooked in the data management literature. In this work, we formally define the entity count problem from a data management perspective and decompose it into a framework of fundamental steps. We explore approaches from both statistics and data management, systematically identifying a design space for different pipelines that address this problem. Finally, we provide extensive experiments to highlight the strengths and weaknesses of these approaches on real-world benchmarks.
@@ -17,7 +16,18 @@ The experiments were conducted using Python 3.11.5 and R 3.6.1. The experiments 
 pip install -r requirements.txt
 ```
 
-The R dependencies are TODO.
+To install [Blink](https://projecteuclid.org/journals/bayesian-analysis/volume-10/issue-4/Entity-Resolution-with-Empirically-Motivated-Priors/10.1214/15-BA965SI.full), and the R dependencies, run the following command:
+
+```bash
+cd src/R/Blink
+R -e "install.packages('stringdist', repos='https://cloud.r-project.org/')"
+R -e "install.packages('plyr', repos='https://cloud.r-project.org/')"
+R -e "install.packages('reticulate', repos='https://cloud.r-project.org/')"
+R -e "install.packages('knitr', repos='https://cloud.r-project.org/')"
+R -e "install.packages('glue', repos='https://cloud.r-project.org/')"
+R -e "install.packages('stringr', repos='https://cloud.r-project.org/')"
+R CMD INSTALL blink_1.1.0.tar.gz
+```
 
 The experiments also make use of the `text-embedding-3-large` model from OpenAI, which requires an API key. To set up the API key, edit the `.env` file in the root directory and replace the `<API_KEY>` placeholder with your API key.
 
@@ -40,4 +50,5 @@ To run the pipeline, navigate to the `experiments` directory and run the followi
 ```bash
 TODO
 ```
+
 
