@@ -45,10 +45,10 @@ The code for to run the pipelines is located in the `experiments` directory, and
 
 The settings for the pipelines for each dataset are located in the `experiments/dataset_config.json` file. 
 
-To run the pipeline, navigate to the `experiments` directory and run the following command:
+To run a pipeline on a dataset, run the following command:
 
 ```bash
-TODO
+python <pipeline_script> --dataset <dataset_name> 
 ```
 
-
+Where `<pipeline_script>` is the name of the pipeline script you want to run, and `<dataset_name>` is the name of the dataset you want to run the pipeline on. The list of datasets is the same as the ones in the `dataset_config.json` file and are as follows: `Music-Brainz-20k`, `Music-Brainz-200k`, `Music-Brainz-2M`, `North-Carolina-Voters-5M`, `Cars`, `Alaska-monitor`, `DBLP-Scholar`, `WDC-xlarge-computers`, `Cars-1M` and `WDC-xlarge-computers-1M`.
