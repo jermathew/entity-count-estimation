@@ -12,3 +12,4 @@ sentence-transformers
 editdistance
 openai
 nltk
+kaleido
