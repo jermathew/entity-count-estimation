@@ -1,0 +1,14 @@
+numpy
+pandas
+torch
+matplotlib
+plotly
+tqdm
+polyleven
+tiktoken
+scikit-learn
+transformers
+sentence-transformers
+editdistance
+openai
+nltk
