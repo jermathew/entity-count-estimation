@@ -1,4 +1,5 @@
 # Evaluating Methods for Efficient Entity Count Estimation
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15023917.svg)](https://doi.org/10.5281/zenodo.15023917)
 
 This repository contains the code and data for the paper *"Evaluating Methods for Efficient Entity Count Estimation"*. 
 
@@ -7,7 +8,7 @@ The problem of estimating the size of a query result has a long history in data 
 
 
 ### Prerequisites
-First, please download the code and data from [Google Drive](https://drive.google.com/file/d/13dyPfci1IK07lrWuPB9Ti27P8zWvsdJA/view?usp=share_link). Please note the `.zip` file is 33GB in size. The unzipped folder is 123GB in size. 
+First, please download the code and data from [Zenodo](https://doi.org/10.5281/zenodo.15023917). Please note the `.zip` file is 33GB in size. The unzipped folder is 123GB in size. 
 
 The experiments were conducted using Python 3.11.5 and R 3.6.1. The experiments make use of the [Networkit](https://networkit.github.io/) library, which can be installed following the instructions on the [Networkit installation page](https://networkit.github.io/get_started.html), based on your operating system. The other Python dependencies are listed in the `requirements.txt`, which can be found in this repository (not the `.zip` file). To install them, we recommend using a virtual environment. Then, run the following command:
 
