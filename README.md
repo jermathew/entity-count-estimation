@@ -1,7 +1,7 @@
 # Evaluating Methods for Efficient Entity Count Estimation
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15023917.svg)](https://doi.org/10.5281/zenodo.15023917)
 
-This repository contains the code and data for the paper *"Evaluating Methods for Efficient Entity Count Estimation"*, which was accepted at the 51st International Conference on Very Large Data Bases (VLDB 2025) (to appear).
+This repository contains the code and data for the paper *"Evaluating Methods for Efficient Entity Count Estimation"*, which has been accepted at the 51st International Conference on Very Large Data Bases (VLDB 2025).
 
 ### Abstract
 The problem of estimating the size of a query result has a long history in data management. When the query performs entity resolution (aka record linkage or deduplication), the problem is that of estimating the number of distinct entities, referred to as the *entity count*. This problem has received much attention from the statistics community but it has been largely overlooked in the data management literature. In this work, we formally define the entity count problem from a data management perspective and decompose it into a framework of fundamental steps. We explore approaches from both statistics and data management, systematically identifying a design space for different pipelines that address this problem. Finally, we provide extensive experiments to highlight the strengths and weaknesses of these approaches on real-world benchmarks.
